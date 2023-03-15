@@ -1,0 +1,41 @@
+.loginPage{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.loginPage .loginBox{
+  padding: 50px;
+  border-radius: 10px;
+  width: 30%;
+  border: 1px solid gray;
+}
+.loginPage .loginBox > h2{
+  margin: 0;
+}
+.loginPage .loginBox >p{
+  margin-top: 0;
+  font-size: 14px;
+}
+
+.loginPage .loginBox .loginform{
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.loginBox .loginform input{
+  padding: 10px;
+  border-radius: 5px;
+}
+.loginBox .loginform label{
+  font-weight: 500;
+}
+
+.loginBox .loginform input:nth-child(5){
+  color: white;
+  background-color: black;
+  font-size: large;
+  cursor: pointer;
+}

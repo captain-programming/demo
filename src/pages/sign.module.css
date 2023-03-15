@@ -1,0 +1,41 @@
+.signupPage{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.signupPage .signupBox{
+  padding: 50px;
+  border-radius: 10px;
+  width: 30%;
+  border: 1px solid gray;
+}
+.signupPage .signupBox > h2{
+  margin: 0;
+}
+.signupPage .signupBox >p{
+  margin-top: 0;
+  font-size: 14px;
+}
+
+.signupPage .signupBox .signupform{
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.signupBox .signupform input{
+  padding: 10px;
+  border-radius: 5px;
+}
+.signupBox .signupform label{
+  font-weight: 500;
+}
+
+.signupBox .signupform input:nth-child(9){
+  color: white;
+  background-color: black;
+  font-size: large;
+  cursor: pointer;
+}
